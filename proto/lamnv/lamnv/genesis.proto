@@ -1,0 +1,12 @@
+syntax = "proto3";
+package nguyenlam05200.lamnv.lamnv;
+
+import "gogoproto/gogo.proto";
+import "lamnv/lamnv/params.proto";
+
+option go_package = "github.com/NguyenLam05200/Lamnv/x/lamnv/types";
+
+// GenesisState defines the lamnv module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}

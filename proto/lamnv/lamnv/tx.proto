@@ -1,0 +1,7 @@
+syntax = "proto3";
+package nguyenlam05200.lamnv.lamnv;
+
+option go_package = "github.com/NguyenLam05200/Lamnv/x/lamnv/types";
+
+// Msg defines the Msg service.
+service Msg {}
